@@ -1,0 +1,58 @@
+/* Show it is fixed to the top */
+body {
+
+  margin-bottom:20px;
+  /*background-color:black;*/
+}
+
+a:link { color: #777777; }
+a:visited { color: gray; }
+a:hover { color: #4aaaa5;; }
+a:active { color: #cccccc }
+
+
+.character{
+  border-style:solid;
+  border-color:green;
+  border-width:5px;
+  margin:5px;
+  width:150px;
+  height:150px;
+  float:left;
+}
+
+.myEnemy{
+  border-color:black;
+  background-color:red;
+  border-style:solid;
+  border-width:5px;
+  margin:5px;
+  width:150px;
+  height:150px;
+  float:left;
+}
+
+.myDefender{
+  border-color:black;
+  background-color:red;
+  border-style:solid;
+  border-width:5px;
+  margin:5px;
+  width:150px;
+  height:150px;
+  float:left;
+}
+
+.charPic{
+  width:90px;
+  height:90px;
+}
+
+.myfooter {
+  	background:#666666;
+  	border-top-width: 5px;
+  	border-top-style:solid;
+  	border-color: #4aaaa5;
+  	padding:10px;
+}
+
