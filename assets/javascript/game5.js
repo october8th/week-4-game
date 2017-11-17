@@ -89,9 +89,7 @@ $(document).ready(function(){
   	$(document).on("click", ".character" , function() {
   		if(charChosen == 0)
   		{
-        console.log($(this).attr('id'));
         var yourDude = $(this).attr('id');
-        console.log(yourDude);
         $(".whatHappened").text("Choose an enemy to battle!");
   			charChosen = 1;
 
@@ -122,7 +120,6 @@ $(document).ready(function(){
         $(".whatHappened").text("Click the attack button to battle!");
   			enemyChosen = 1;
   			var yourDefender = $(this).attr('id');
-        console.log(yourDefender);
         $(myChars).each(function(index,obj)
         {
           if( obj.name == yourDefender)
@@ -157,7 +154,6 @@ $(document).ready(function(){
   			$(".battleText").text("You Attacked " + theDefender.name +" for " + APBonus + " points!");
   			
         theDefender.HP -= APBonus;
-        console.log("the defender HP " + theDefender.HP);
         if(theDefender.HP <= 0)
         {
           $(".defender").empty();
